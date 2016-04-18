@@ -1,2 +1,2 @@
 # temp-logger
-Plugin for Core Temp Reader to create a log of temperatures
+Application that works with Open Hardware Monitor (http://openhardwaremonitor.org/documentation/) to create a log of temperatures

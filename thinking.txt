@@ -1,0 +1,29 @@
+Two main goals for this program:
+1. Make sure the logging information is retained on an unexpected shutdown
+2. Minimize processing as much as possible
+
+To achieve 1, it probably makes sense to close the file after every write.
+However, opening and closing the file on every write violates 2.
+
+
+How frequently do we want to write the data?
+Well, how frequently is it refreshed? That's the fastest we could do it.
+-could have a frequency control in command line invokation.
+-Though does Windows allow for passing in of commands in a similar matter? It must.
+
+Format: Probably CSV, it's easy to do and widely supported
+I don't think C technically has CSV utilities but whatever, it's easy enough to do.
+
+Line endings should be Windows-format, since this is a Windows program. So remember /r/n!
+
+
+
+
+
+
+
+
+
+
+For eventual throttler:
+https://github.com/Sepero/temp-throttle

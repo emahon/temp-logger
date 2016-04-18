@@ -1,0 +1,7 @@
+http://openhardwaremonitor.org/documentation/
+https://msdn.microsoft.com/en-us/library/windows/desktop/aa394582%28v=vs.85%29.aspx
+http://superuser.com/questions/565347/how-does-windows-limit-the-cpu-power-options-battery-saving
+
+(partial?) List of Windows 7 APIs:
+
+https://msdn.microsoft.com/en-us/library/hh920509%28v=vs.85%29.aspx
